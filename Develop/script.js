@@ -86,18 +86,12 @@ function generatePassword() {
     password = chooseChars(validChars, passwordLength);
   }
 
-
-
 //1. prompt the user for the password criteria
 // 1a password length between 8 and 128 characters
 // 1b uppercase, lowercase, special characters
 // 2 validate the input 
 // 3 generate password with criteria
 // 4 display password on the page.
-
-
-
-
 
 return password;
 }
